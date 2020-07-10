@@ -49,7 +49,7 @@ h2{
 
 #banner-parallax{
     /* The image used */
-    background-image: url("../images/columbus-cropped.jpg");
+    background-image: url("../images/columbus-cropped-condensed.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -61,6 +61,14 @@ h2{
     background-size: cover;
 
     position:relative;
+}
+
+@media only screen and (max-width: 568px) {
+    #banner-parallax{
+        background-image: url("../images/columbus-cropped-condensed-mobile.jpg");
+        background-size:contain;
+        background-position: top;
+    }
 }
 
 .banner-text-container{
@@ -118,7 +126,7 @@ h2{
 /* SECTION ---- PARALAX ----- */
 .parallax {
     /* The image used */
-    background-image: url("../images/Frame_5_TSL.jpg");
+    background-image: url("../images/Frame_5_TSL_condensed.jpg");
 
     display:flex;
     align-items: center;
@@ -132,6 +140,12 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width: 576px){
+    .parallax{
+        background-image: url("../images/Frame_5_TSL_mobile.jpg");
+    }
 }
 
 .parallax h3{
