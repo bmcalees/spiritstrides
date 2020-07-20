@@ -3,25 +3,49 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Small Business Concierge</title>
-  <meta name="description" content="Small Business Concierge">
+
+  <meta name="description" content="Your single point of contact, providing small business owners and entrepreneurs access to the organizations designed to ensure their success.">
   <meta name="author" content="Thomas Eveland">
+  <meta name="keywords" content="small business entrepreneurs funding help advice consulting" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <link rel="stylesheet" href="styles/index.css">
+
+  
 </head>
 
 <body>
   <div class="site-container">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-          <img src="images/logo-transparent.png" width="325" />
-          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light my-4">
+          <img id="nav-logo" src="images/logo-transparent.png"/>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button> -->
-          <div class="collapsed navbar-collapse d-none d-inline-block-sm" id="navbarText">
+          </button>
+          <div class="navbar-collapse collapse text-right pt-4" id="navbarText">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#about">About</a>
@@ -40,7 +64,7 @@
         </nav>
       </div>
       <section class="section-carousel">
-        <div id="banner-links-container">
+        <div id="banner-links-container" class="d-none d-sm-flex">
           <div class="container">
             <div class="row text-center">
               <div class="col-3">
@@ -82,7 +106,7 @@
                     <h5 class="mt-4">Connections</h5>
                     <div class="mt-4">We connect entrepreneurs to a network of public professional service providers, free resources, and trusted experts</div>
                 </div>
-                <div class="w-100 d-sm-none"></div>
+                <div class="w-100 d-md-none mt-5"></div>
                 <div class="col text-center icon-container">
                     <!-- <img src="images/icons/icon-capital.svg" height="60" /> -->
                     <div class="square"><i class="fa fa-money"></i></div>
@@ -106,7 +130,7 @@
       <div id="free-resources" class="container">
         <section class="section-links mt-5 pt-5">
           <div class="row text-center mb-4">
-            <h2 style="font-weight:bold; font-size:16px;">Connecting Entrepreneurs to Organizations Built to Support Them.</h2>
+            <h2>Connecting Entrepreneurs to the Resources they need.</h2>
           </div>
           <div class="row">
             <div class="col-3 text-center link-container">
@@ -152,12 +176,17 @@
           </div>
         </section>
       </div>
-      
-      <section id="about" class="section-about mt-5 pt-5">
+
+      <section class="section-small-business-banner mt-5 pt-5">
+        <div class="parallax">
+        </div>
+      </section>
+
+      <section id="about" class="section-about">
         <div class="about-container p-5">
           <div class="container my-5">
             <h2 class="text-center mb-5">HELPING SMALL BUSINESSES SUCCEED.</h3>
-            <div class="about-body-container px-5">
+            <div class="about-body-container px-0 px-md-5">
               <p class="mt-5">We are a single point of connection to all of the Columbus region’s business resources.</p>
               <p class="mt-5">Columbus boasts an amazing small business ecosystem. Our city has a strong economy, a diverse and educated workforce, capital resources, and an unparalleled network of entrepreneur support organizations for budding entrepreneurs and small business owners.</p>
               <p class="mt-5">Our goal is to help you assess your challenges, guide you to the resources you need, and help you leverage them to plan, launch, and grow your business. The success of your business is a success for our region.</p>
@@ -170,13 +199,18 @@
         </div>
       </section>
 
+      <section class="section-meeting-room-banner">
+        <div class="parallax">
+        </div>
+      </section>
+
       <div id="reviews" class="container">
-        <section class="section-reviews mt-5 pt-5">
+        <section class="section-reviews mt-5 p-5">
           <div class="row text-center mb-5">
             <h2>Our Impact</h2>
           </div>
           <div class="row">
-            <div class="col-6 review-container">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0 review-container">
               <p class="review-text">
                 ... is very good at being a business advisor. I've been fortunate enough for him to work with me and for me to know him for a few years. When I was working towards launching and running my business (Big Bucket Cleaning LLC) he always asked me the right question at the right time. Its really amazing how we can be talking about the business and the issues I'm having and he is able to direct all my issues back to one or two things that I need to address. I highly recommend him.
               </p>
@@ -185,7 +219,7 @@
                 <span style="float:right;">- Eric Renner</span>
               </div>
             </div>
-            <div class="col-6 review-container">
+            <div class="col-12 col-sm-6 mt-4 mt-sm-0 review-container">
               <p class="review-text">
                 ... has been a wealth of knowledge and great to work with!  He has helped our small business recover and grow more than we could have hoped for.  There is so much value to his service with his ability to advise on current and future decisions in order to make the best financial outcomes.
               </p>
@@ -195,8 +229,8 @@
               </div>
             </div>
           </div>
-          <div class="row mt-5 pb-5">
-            <div class="col-6 review-container">
+          <div class="row mt-0 mt-sm-5 pb-5">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0 review-container">
               <p class="review-text">
                 I consulted about the PPP program and EIDL. Each interaction was educational and helpful and as anyone who has attempted this program, it has and continues to change rapidly.  I am very pleased with the service I received and will continue to use in the future as needed.              </p>
               <div>
@@ -204,7 +238,7 @@
                 <span style="float:right;">- Chris Stein</span>
               </div>
             </div>
-            <div class="col-6 review-container">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0 review-container">
               <p class="review-text">
                 ... has helped make my dreams come true! He has given me great advise and has helped organize my business. I would highly recommend using his services.              </p>
               <div>
@@ -226,7 +260,7 @@
       <div class="container">
         <div class="row footer-content py-5">
           <div class="col-6">
-            <img src="images/logo-white-transparent.png" width="250" />
+            <img id="logo-footer" src="images/logo-white-transparent.png" />
           </div>
           <div class="col-6 text-right">
             <a class="circle circle-linkedin mr-3" target="_blank" href="https://www.linkedin.com/company/columbussbc/"><i class="fa fa-linkedin pr-2"></i></a>
