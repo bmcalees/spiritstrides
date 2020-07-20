@@ -155,14 +155,12 @@ h2{
 .section-small-business-banner .parallax {
     /* The image used */
     background-image: url("../images/small-business-banner.jpg");
-    height:300px;
 }
 
 /* SECTION ----  small business PARALAX ----- */
 .section-meeting-room-banner .parallax {
     /* The image used */
     background-image: url("../images/meeting-room-banner.jpg");
-    height:300px;
 }
 
 /* SECTION ---- ABOUT ----- */
