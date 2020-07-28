@@ -261,6 +261,14 @@ h2{
         font-size:16px;
     }
 
+    h2{
+        font-size:20px;
+    }
+
+    .icon-container h5{
+        font-size:20px;
+    }
+
     #nav-logo{
         width:125px;
     }
@@ -284,8 +292,27 @@ h2{
         background-image: url("../images/meeting-room-banner-mobile.jpg");
     }
 
+    .section-get-started .btn-primary{
+        padding:16px;
+    }
+
+    .link-container{
+        padding:8px;
+    }
+
+    .circle{
+        width: 32px;
+        font-size: 16px;
+        height: 32px;
+        padding: 3px 8px;
+    }
+
+    .circle-phone{
+        padding-top:4px;
+    }
+
     #logo-footer{
-        width:200px;
+        width:140px;
     }
 }
 
