@@ -273,7 +273,15 @@ h2{
         width:125px;
     }
 
+    .parallax{
+        background-attachment: initial;
+    }
+
     #banner-parallax{
+        background-attachment: initial;
+    }
+
+    /* #banner-parallax{
         background-image: url("../images/columbus-cropped-condensed-mobile.jpg");
     }
 
@@ -282,15 +290,12 @@ h2{
     }
 
     .section-small-business-banner .parallax {
-        /* The image used */
         background-image: url("../images/small-business-banner-mobile.jpg");
     }
     
-    /* SECTION ----  small business PARALAX ----- */
     .section-meeting-room-banner .parallax {
-        /* The image used */
         background-image: url("../images/meeting-room-banner-mobile.jpg");
-    }
+    } */
 
     .section-get-started .btn-primary{
         padding:16px;
