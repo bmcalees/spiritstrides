@@ -62,7 +62,7 @@ h2{
     position:absolute;
     top:120px;
     left:220px;
-    width:500px;
+    width:550px;
 }
 
 .banner-text-container h2{
@@ -71,8 +71,10 @@ h2{
 }
 
 .banner-text-container p{
-    font-weight:200;
-    color:black;
+    font-weight: 400;
+    color: #000000b3;
+    line-height: 1.8;
+    font-size: 17px;
 }
 
 .banner-text-container a{
@@ -330,5 +332,10 @@ h2{
         top:110px;
         left:0px;
         width:100%;
+    }
+
+    .banner-text-container p {
+        line-height: 1.7;
+        font-size: 16px;
     }
 }
