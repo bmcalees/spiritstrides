@@ -215,7 +215,8 @@ h2{
 
 /* SECTION ---- FOOTER ----- */
 #logo-footer{
-    width:250px;
+    width:300px;
+    margin-top:12px;
 }
 
 .section-footer{
@@ -237,12 +238,17 @@ h2{
 }
 
 .circle{
-    border-radius:40px;
-    width: 50px;
-    font-size: 20px;
-    height: 50px;
-    padding: 8px 7px;
-    display:inline-block;
+    font-size:14px;
+    display:block;
+}
+
+.circle i{
+    border-radius: 40px;
+    width: 29px;
+    font-size: 15px;
+    height: 29px;
+    padding: 8px 8px;
+    margin-right:8px;
 }
 
 .circle-linkedin{
@@ -256,6 +262,18 @@ h2{
 
 .circle-email{
     background-color:#005a89;
+}
+
+.address-name{
+    color: #8b8b8b;
+    font-size:14px;
+    margin-bottom:6px;
+
+}
+
+.address-location{
+    margin-bottom:0px;
+    font-size:14px;
 }
 
 @media only screen and (max-width: 576px){
@@ -317,10 +335,6 @@ h2{
     .circle-phone{
         padding-top:4px;
     }
-
-    #logo-footer{
-        width:140px;
-    }
 }
 
 @media only screen and (max-width: 878px){
@@ -337,5 +351,10 @@ h2{
     .banner-text-container p {
         line-height: 1.7;
         font-size: 16px;
+    }
+
+    #logo-footer{
+        width:200px;
+        margin-top:48px;
     }
 }
