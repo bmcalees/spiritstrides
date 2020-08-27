@@ -61,7 +61,7 @@ h2{
     padding:32px;
     position:absolute;
     top:120px;
-    left:220px;
+    left:15%;
     width:550px;
 }
 
@@ -215,7 +215,7 @@ h2{
 
 /* SECTION ---- FOOTER ----- */
 #logo-footer{
-    width:300px;
+    width:275px;
     margin-top:12px;
 }
 
@@ -262,6 +262,10 @@ h2{
 
 .circle-email{
     background-color:#005a89;
+}
+
+.address-container{
+    text-align:left;
 }
 
 .address-name{
@@ -324,20 +328,9 @@ h2{
     .link-container{
         padding:8px;
     }
-
-    .circle{
-        width: 32px;
-        font-size: 16px;
-        height: 32px;
-        padding: 3px 8px;
-    }
-
-    .circle-phone{
-        padding-top:4px;
-    }
 }
 
-@media only screen and (max-width: 878px){
+@media only screen and (max-width: 768px){
     .banner-text-container{
         background-color:rgba(255,255,255,0.90);
         color:white;
@@ -356,5 +349,25 @@ h2{
     #logo-footer{
         width:200px;
         margin-top:48px;
+    }
+
+    .contact-container{
+        text-align: center;
+        margin-bottom:32px;
+    }
+
+    .address-container{
+        text-align:center;
+    }
+
+    .circle{
+        display:inline-block;
+        font-size: 16px;
+        height: 32px;
+        padding: 3px 8px;
+    }
+
+    .circle-phone{
+        padding-top:4px;
     }
 }
