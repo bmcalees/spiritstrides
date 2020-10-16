@@ -165,6 +165,12 @@ h2{
     background-image: url("../images/meeting-room-banner.jpg");
 }
 
+/* SECTION ----  small business PARALAX ----- */
+.section-meeting-room-banner-2 .parallax {
+    /* The image used */
+    background-image: url("../images/meeting-room-banner-2.jpg");
+}
+
 /* SECTION ---- ABOUT ----- */
 .btn-primary{
     padding:16px;
@@ -182,6 +188,12 @@ h2{
 /* SECTION ---- REVIEWS ----- */
 .review-text{
     font-weight:200;
+}
+
+/* SECTION ---- TEAM ----- */
+.italic{
+    font-style:italic;
+    font-weight:400;
 }
 
 /* SECTION --- GET STARTED ---- */
