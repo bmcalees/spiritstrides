@@ -1,0 +1,21 @@
+html,body{
+  font-family: hero-new, sans-serif;
+  color:#606060;
+}
+
+span,p,ul,ol,li{
+  font-weight:300;
+  font-size:18px;
+  line-height:1.8;
+}
+
+h1,h2,h3,h4,h5{
+  color:black;
+}
+
+h1{
+  font-family: freight-text-pro, serif;
+  font-weight:400;
+  font-style: italic;
+  letter-spacing:1.4px;
+}

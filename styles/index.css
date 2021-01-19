@@ -1,11 +1,3 @@
-.color-blue{
-    color:rgb(0, 83, 155);
-}
-
-.color-red{
-    color:rgb(227, 27, 35);
-}
-
 #nav-logo{
     width:280px;
 }
@@ -18,6 +10,38 @@ h2{
     display:block;
     width: 100%;
     text-transform: uppercase;
+}
+
+#site-container{
+    padding-top:150px;
+}
+
+/* SECTION ---- HEADER ---- */
+#section-header{
+    position:fixed;
+    width:100%;
+    z-index:9999;
+    top:0;
+    background-color:white;
+    -webkit-box-shadow: 0 5px 9px -6px #00000054;
+    -moz-box-shadow: 0 5px 9px -6px #00000054;
+    box-shadow: 0 5px 9px -6px #00000054;
+}
+
+#header-text-container{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    height:64px;
+    margin-top:16px;
+}
+
+/* SECTION ---- CAROUSEL ---- */
+.section-carousel{
+}
+
+/* SECTION ---- QUOTE ---- */
+.quote{
+    font-weight:200;
 }
 
 /* SECTION ---- BANNER ---- */
@@ -41,7 +65,7 @@ h2{
 
 #banner-parallax{
     /* The image used */
-    background-image: url("../images/columbus-cropped-condensed.jpg");
+    background-image: url("../images/woman-and-horse.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -56,25 +80,25 @@ h2{
 }
 
 .banner-text-container{
-    background-color:rgba(255,255,255,0.90);
     color:white;
-    padding:32px;
+    padding:12px;
     position:absolute;
-    top:120px;
-    left:15%;
-    width:550px;
+    bottom:0px;
+    text-align: center;
+    transform: translateX(-50%);
+    left:50%;
+    width:900px;
 }
 
-.banner-text-container h2{
-    font-size:28px;
-    font-weight:200;
+.banner-text-container h3{
+    font-weight:900;
+    font-size:48px;
+    padding-bottom:12px;
 }
 
-.banner-text-container p{
-    font-weight: 400;
-    color: #000000b3;
-    line-height: 1.8;
-    font-size: 17px;
+.banner-text-container h4{
+    font-size:36px;
+    font-weight:800;
 }
 
 .banner-text-container a{
@@ -86,33 +110,50 @@ h2{
     color:#f3f3f3;
 }
 
-/* SECTION ---- ICONS ----- */
-.section-icons{
-    margin-top:64px;
+/* SECTION ---- OUR PROGRAMS ---- */
+.sub-category{
+    font-size:16px;
+    font-weight:400;
 }
 
-.square{
-    display:inline-block;
-    font-size:30px;
-    border-radius:4px;
-    padding-top:4px;
-    width:60px;
-    height:60px;
-    text-align:center;
-    border:3px solid black;
+/* SECTION ---- TESTIMONIALS ---- */
+.section-testimonials{
+    margin:0 auto;
+    max-width:1000px;
+    padding:100px;
+    border:1px solid black;
+}
+
+.testimonial-title{
+    font-size:22px;
+    font-weight:400;
     color:black;
 }
 
-.icon-container h5{
-    font-size:24px;
-    font-weight:200;
-    text-transform: uppercase;
+/* SECTION ---- CONTACT US ---- */
+.section-contact-us{
+    background-color: #ededed;
+}
+
+.directions{
+    font-size:14px;
+}
+
+/* SECTION ---- GENERAL ---- */
+.highlight {
+    font-size:22px;
+    font-weight:400;
+    color:black;
+}
+
+.no-margin{
+    margin:0px !important;
 }
 
 /* SECTION ---- PARALAX ----- */
 .parallax {
     /* The image used */
-    background-image: url("../images/Frame_5_TSL_condensed.jpg");
+    background-image: url("../images/sample-image.jpg");
 
     display:flex;
     align-items: center;
@@ -153,31 +194,6 @@ h2{
     max-height:100%;
 }
 
-/* SECTION ----  small business PARALAX ----- */
-.section-small-business-banner .parallax {
-    /* The image used */
-    background-image: url("../images/small-business-banner.jpg");
-}
-
-/* SECTION ----  small business PARALAX ----- */
-.section-meeting-room-banner .parallax {
-    /* The image used */
-    background-image: url("../images/meeting-room-banner.jpg");
-}
-
-/* SECTION ----  small business PARALAX ----- */
-.section-meeting-room-banner-2 .parallax {
-    /* The image used */
-    background-image: url("../images/meeting-room-banner-2.jpg");
-}
-
-/* SECTION ---- ABOUT ----- */
-.btn-primary{
-    padding:16px;
-    background-color: rgb(0, 83, 155);
-    border-radius: 0px;
-}
-
 .about-container{
     background-color: #ededed;
 }
@@ -190,44 +206,9 @@ h2{
     font-weight:200;
 }
 
-/* SECTION ---- TEAM ----- */
-.italic{
-    font-style:italic;
-    font-weight:400;
-}
-
-/* SECTION --- GET STARTED ---- */
-.section-get-started{
-    background: url("../images/get-started-background.jpg") no-repeat;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-    /* Set a specific height */
-    height: 300px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    color:white;
-}
-
-.section-get-started .btn-primary{
-    padding:16px 150px;
-}
-
 /* SECTION ---- FOOTER ----- */
 #logo-footer{
-    width:275px;
+    width:125px;
     margin-top:12px;
 }
 
@@ -240,6 +221,11 @@ h2{
     border-bottom:1px solid #535353;
 }
 
+.section-footer p{
+    font-size:14px;
+    margin-bottom:4px;
+}
+
 .copyright-text{
     font-size:11px;
     color:#535353;
@@ -249,47 +235,25 @@ h2{
     color: #c1cfd2;
 }
 
-.circle{
-    font-size:14px;
-    display:block;
-}
-
-.circle i{
-    border-radius: 40px;
-    width: 29px;
-    font-size: 15px;
-    height: 29px;
-    padding: 8px 8px;
-    margin-right:8px;
-}
-
-.circle-linkedin{
-    background-color:#0077b5;
-}
-
-.circle-phone{
-    padding-top:9px;
-    background-color:darkcyan;
-}
-
-.circle-email{
-    background-color:#005a89;
-}
-
 .address-container{
     text-align:left;
 }
 
-.address-name{
+.footer-title{
     color: #8b8b8b;
     font-size:14px;
     margin-bottom:6px;
 
 }
 
-.address-location{
+.footer-data{
     margin-bottom:0px;
     font-size:14px;
+    font-weight:300;
+}
+
+.footer-hours{
+    padding-left:16px;
 }
 
 @media only screen and (max-width: 576px){
