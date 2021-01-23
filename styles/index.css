@@ -32,7 +32,10 @@ h2{
     border-top:1px solid black;
     border-bottom:1px solid black;
     height:64px;
-    margin-top:16px;
+}
+
+#header-text-container h1{
+    font-size:24px;
 }
 
 /* SECTION ---- CAROUSEL ---- */
@@ -150,6 +153,11 @@ h2{
     margin:0px !important;
 }
 
+/* SECTION ---- IMAGE SLIDER ----- */
+.lightSlider img {
+    height:400px;
+ }
+
 /* SECTION ---- PARALAX ----- */
 .parallax {
     /* The image used */
@@ -195,7 +203,7 @@ h2{
 }
 
 .about-container{
-    background-color: #ededed;
+    /*background-color: #ededed;*/
 }
 
 .about-body-container{
@@ -279,6 +287,7 @@ h2{
 
     #banner-parallax{
         background-attachment: initial;
+        height:300px;
     }
 
     /* #banner-parallax{
@@ -307,19 +316,49 @@ h2{
 }
 
 @media only screen and (max-width: 768px){
+    #site-container{
+        padding-top:96px;
+    }
+
+    #header-text-container{
+        display:flex;
+        align-items: center;
+        border:none;
+        padding-left:0;
+    }
+
+    .header-logo-container{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+    
+    #header-text-container h1{
+        font-size:16px;
+    }
+
     .banner-text-container{
-        background-color:rgba(255,255,255,0.90);
         color:white;
-        padding:32px;
+        padding:0 16px;
         position:absolute;
-        top:110px;
-        left:0px;
+        bottom:0px;
+        text-align: center;
+        transform: translateX(-50%);
+        left:50%;
         width:100%;
     }
 
-    .banner-text-container p {
-        line-height: 1.7;
-        font-size: 16px;
+    .banner-text-container h3 {
+        font-size: 24px;
+        padding-bottom:0px;
+    }
+
+    .banner-text-container h4 {
+        font-size: 18px;
+    }
+
+    .section-testimonials{
+        padding:16px;
     }
 
     #logo-footer{
@@ -346,4 +385,20 @@ h2{
     .circle-phone{
         padding-top:4px;
     }
+
+    .quote{
+        font-size:14px;
+    }
+
+    .highlight{
+        font-size:16px;
+    }
+
+    .footer-data{
+        margin:0 auto;
+    }
+
+    .lightSlider img {
+        height:300px;
+     }
 }

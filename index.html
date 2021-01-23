@@ -41,6 +41,7 @@
   
   <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/lightslider.min.css">
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/bootstrap-overrides.css">
@@ -61,16 +62,17 @@
 <body>
   <div id="site-container">
     <section id="section-header">
-      <div class="container py-4">
+      <div class="container py-3 py-md-4">
         <div class="row">
-          <div class="col-2">
-            <img src="images/logos/logo.webp" width="100">
+          <div class="col-3 col-md-2 pr-md-3 text-center header-logo-container">
+            <img class="d-none d-md-inline-block" src="images/logos/logo.webp" width="100">
+            <img class="d-md-none" src="images/logos/logo.webp" width="50">
           </div>
-          <div id="header-text-container" class="col-8 py-3 text-center">
-            <h1 style="font-size:24px;">SPIRIT STRIDES Therapeutic Horsemanship</h1>
+          <div id="header-text-container" class="col-9 col-md-8 py-md-3 mt-md-3 pr-3 text-center">
+            <h1>SPIRIT STRIDES Therapeutic Horsemanship</h1>
           </div>
-          <div class="col-2 text-right">
-            <a href="#" class="btn btn-primary mt-4">DONATE</a>
+          <div class="d-none d-md-inline-block col-md-2 text-right">
+            <a  href="https://www.paypal.me/spiritstrides" target="_blank" class="btn btn-primary mt-4">DONATE</a>
           </div>
         </div>
       </div>
@@ -85,7 +87,7 @@
       </div>
     </section>
 
-    <section class="py-5 background-primary">
+    <section class="py-4 py-md-5 background-primary">
       <div class="container text-center" style="max-width:700px;">
         <span class="color-white quote">"Therapeutic riding is based on creating a true partnership between horse and human based on love, trust and respect."</span>
       </div>
@@ -93,12 +95,12 @@
     
     <section>
       <div class="container">
-        <section class="section-icons my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="section-icons my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-md-5">
             <h2>Our Mission</h2>
           </div>
           <div class="row pt-4">
-            <span class="pl-4">
+            <span class="px-3 pl-md-4">
               Spirit Strides offers developmental support to physically and mentally challenged people using an equine-assisted approach to recreational and physical therapy. This non-traditional therapeutic practice empowers clients to enhance their sensory-motor abilities, cognitive and communication skills, their behavioral and emotional health, and social and leisure skills through professionally guided horsemanship experiences. Spirit Strides is a 501 (c) (3) non-profit tax organization.
             </span>
           </div>
@@ -106,7 +108,7 @@
       </div>
     </section>
 
-    <section class="py-5 background-primary">
+    <section class="py-4 py-md-5 background-primary">
       <div class="container text-center" style="max-width:700px;">
         <p class="color-white quote">"Horses don’t care who you are, what you’ve done, or what you believe. They care only about how you behave with them."</p>
         <span style="font-style: italic; font-weight:200;font-size:14px;" class="color-white">- Tim Hayes, Horse Whisperer</span>
@@ -115,8 +117,8 @@
 
     <section>
       <div class="container">
-        <section class="section-icons my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="section-icons my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-md-5">
             <h2>Our Vision</h2>
           </div>
           <div class="row pt-4">
@@ -128,15 +130,68 @@
       </div>
     </section>
 
-    <section class="section-generic-pic mt-5 pt-5">
-      <div class="parallax">
-        <h3>SAMPLE IMAGE</h3>
-      </div>
+    <section class="section-generic-pic my-4 py-4 my-md-5 py-md-5">
+      <ul id="lightSlider">
+        <li>
+            <img src="images/slider/12_30_adult male rider grooming horse in barn2.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_child rider in barn petting horse .jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_girl rider with glasses riding backwards in ring.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider brushing horse in barn.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider throwing toy through hoop.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_girl white helpmet sensory board game.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider in ring throwing toy into basket.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider in ring tossing football.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider on horse passing toy to instructor.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider smiling with horse in barn.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/12_30_rider on horse in ring bowling.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/man feeding horse.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/rider being led on horse - Copy - Copy.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/student hugging horse.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/student kissing horse.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/student smiling feeding horse in barn.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/student walking horse around barrels.jpg" />
+        </li>
+        <li>
+          <img src="images/slider/student walking horse.jpg" />
+        </li>
+      </ul>
     </section>
 
     <section id="about" class="section-about">
-      <div class="about-container p-5">
-        <div class="container my-5">
+      <div class="about-container pb-4 p-md-5">
+        <div class="container mb-4 my-md-5">
           <div class="text-center mb-5">
             <h2 class="mb-4">Our Programs</h2>
             <h3 class="sub-category color-dark-grey">Therapeutic Riding</h3>
@@ -158,7 +213,7 @@
       </div>
     </section>
 
-    <section class="py-5 background-primary">
+    <section class="py-4 py-md-5 background-primary">
       <div class="container text-center" style="max-width:700px;">
         <p class="color-white quote">"The horse is the perfect mirror, they are very emotional beings; we're only starting to realize how intelligent they are."</p>
         <span style="font-style: italic; font-weight:200;font-size:14px;" class="color-white">- Gabrielle Gardner, therapist, Shine For Life</span>
@@ -167,15 +222,15 @@
 
     <section>
       <div class="container">
-        <section class="section-icons my-5 py-5">
-          <div class="row text-center mb-5">
-            <h2>A HEART TOUCHED BY HORSES</h2>
+        <section class="section-icons my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-4 mb-md-5">
+            <h2 class="px-3">A HEART TOUCHED BY HORSES</h2>
           </div>
           <div class="row pt-4">
-            <div class="col-5">
+            <div class="col-12 col-md-5">
               <img src="images/brenda-hugs-gabe.webp" style="width:100%; border:2px solid black;" />
             </div>
-            <div class="col-7 pl-4">
+            <div class="col-12 col-md-7 mt-3 mt-md-0 pl-4">
               <p>Brenda Gilliam's love-affair with horses began at the tender age of five years old. Her grandfather would hoist her onto the horses and together they would ride the farm for hours.</p>
               <p>After careers in the business world and as a special education teacher, Brenda realized her dream of providing horse therapy program services in 2012 when she established Spirit Strides Therapeutic Riding.</p>
               <p>Brenda became a PATH International certified professional and began lessons in 2015. Over the next two years Spirit Strides partnered with Disability Resource Association and Next Step for Life. Her lessons are designed for the goals and needs of each individual client, often with input from the parents, therapists, health care providers, and educators.</p>
@@ -187,15 +242,15 @@
 
     <section style="background-color:aliceblue;" class="py-1">
       <div class="container">
-        <section class="section-icons my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="section-icons my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-4 mb-md-5">
             <h2>VOLUNTEERING</h2>
           </div>
           <div class="row pt-4">
-            <div class="col-5">
+            <div class="col-12 col-md-5">
               <img src="images/ss-crew.webp" style="width:100%; border:2px solid black;" />
             </div>
-            <div class="col-7 pl-4">
+            <div class="col-12 col-md-7 mt-3 mt-md-0 pl-4">
               <p>Volunteering at Spirit Strides is very rewarding. It is more than donating your time and skills.  Do you prefer being around horses or children? Maybe you would rather help out with office duties?  Volunteering can provide a great opportunity for you to learn a new skill, meet some fabulous people and perhaps get a little bit of physical fitness.</p>
               <p>Regardless of how you would like to make an impact, know that a simple donation of time spent volunteering will help the lives of the  riders, their families and improve the Jefferson County community.</p>
             </div>
@@ -204,7 +259,7 @@
             <span style="font-weight:400;">We would love to hear about your special skills and talents! If you would like to Volunteer with us, please email us at <a href="mailto:spiritstrides@gmail.com">spiritstrides@gmail.com</a> or give us a call at <a href="tel:+16365245656">636-524-5656</a>.</span>
           </div>
           <div class="row pt-5 text-center">
-            <span style="margin:0 auto;">** Link to Google Drive of Vol Handbook **</span>
+            <a style="margin:0 auto;" href="attachments/PDF OF SS VOL HANDBOOK.pdf" target="_blank" class="btn btn-primary"><i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;VOLUNTEERING HANDBOOK</a>
           </div>
         </section>
       </div>
@@ -212,23 +267,23 @@
 
     <section>
       <div class="container">
-        <section class="section-testimonials my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="section-testimonials my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-4 mb-md-5">
             <h2>TESTIMONIALS</h2>
           </div>
-          <div class="row pt-4 pl-4 testimonial">
+          <div class="row pt-md-4 px-3 pl-md-4 pr-md-0 testimonial">
             <p class="testimonial-title">Mother of rider:</p>
             <p class="testimonial-description">"Our daughter loves Spirit Strides. We weren't sure how she was going to do with it at first because she is easily over-stimulated and has an extremely short attention span.  All of our worries were quickly put to rest as she completed more of each session without fuss.  After the first few sessions, she seemed more eager to complete the activities.  Our daughters time spent at SS has had a positive and lasting influence on her development and we highly recommend them."</p>
           </div>
-          <div class="row pt-4 pl-4 testimonial">
+          <div class="row pt-md-4 px-3 pl-md-4 pr-md-0 testimonial">
             <p class="testimonial-title">Volunteer / Walker:</p>
             <p class="testimonial-description">"Some clients come to us and can't sit on a horse but after Brenda works with them they can ride the arena!  Sometimes it's the case where this is a riders first time wearing a helmet.  Brenda is amazing with these kids and the horses are so well behaved."</p>
           </div>
-          <div class="row pt-4 pl-4 testimonial">
+          <div class="row pt-md-4 px-3 pl-md-4 pr-md-0 testimonial">
             <p class="testimonial-title">Parent of a rider:</p>
             <p class="testimonial-description">"My son continues to learn so much during his Therapeutic Equine sessions at Spirit Strides.  He was learned a new level of confidence and problem solving skills without anger or defeat.  Brenda challenges him but also consistently encourages him with positivity and praise.  He shows patience and diligence and success with the horses and the best part is that he can also use the skills he learns at equine during social interactions in his daily life."</p>
           </div>
-          <div class="row pt-4 pl-4 testimonial">
+          <div class="row pt-md-4 px-3 pl-md-4 pr-md-0 testimonial">
             <p class="testimonial-title">Volunteer / Barn helper:</p>
             <p class="testimonial-description">"Volunteering at Spirit Strides has helped with my self-confidence and sense of purpose. The experience has truly changed me."</p>
           </div>
@@ -236,7 +291,7 @@
       </div>
     </section>
 
-    <section class="py-5 background-primary">
+    <section class="py-4 py-md-5 background-primary">
       <div class="container text-center" style="max-width:700px;">
         <p class="color-white quote">"There is something about the outside of a horse that is good for the inside of a human."</p>
         <span style="font-style: italic; font-weight:200;font-size:14px;" class="color-white">- Winston Churchill</span>
@@ -245,18 +300,18 @@
 
     <section>
       <div class="container">
-        <section class="section-icons my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="section-icons my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-4 mb-md-5">
             <h2>WAYS TO DONATE</h2>
           </div>
-          <div class="row pt-4">
-            <div class="col-6 pr-4">
+          <div class="row pt-md-4">
+            <div class="col-12 col-md-5 px-3 pl-md-0 pr-md-4">
               <p>We love what we do and the lives that we impact. We absolutely love our horses and the other farm animals at the center.  All of the animals take a lot of care. Along with a successful therapeutic program comes additional needs.  Without continued financial support, our programs would simply not exist.</p>
               <p class="highlight text-center py-3">We appreciate donations in any amount.</p>
-              <p>You can support us by sending a donation directly to our <a href="paypal.me/spiritstrides" target="_blank">PayPal account</a> or open up the PDF below to see what is on our Wish List and have it shipped directly to the center.</p>
+              <p>You can support us by sending a donation directly to our <a href="https://www.paypal.me/spiritstrides" target="_blank">PayPal account</a> or open up the PDF below to see what is on our Wish List and have it shipped directly to the center.</p>
               <p>Thank you in advance for wanting to support our program.</p>
             </div>
-            <div class="col-6 pl-4">
+            <div class="col-12 col-md-7 px-3 pl-md-0 pl-4">
               <p>We always appreciate donations to help us operate our facility. Below are items you can donate and know that we will put them to good use:</p>
               <ul>
                 <li>Mixed grass hay or orchard grass hay</li>
@@ -269,7 +324,7 @@
               </ul>
             </div>
           </div>
-          <div class="row mt-5 text-center">
+          <div class="row mt-4 mt-md-5 text-center">
             <a href="attachments/wish-list.pdf" target="_blank" class="btn btn-primary" style="margin:0 auto;"><i class="fa fa-file-pdf-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;WISH LIST</a>
           </div>
         </section>
@@ -278,17 +333,21 @@
 
     <section class="section-contact-us py-1">
       <div class="container">
-        <section class="my-5 py-5">
-          <div class="row text-center mb-5">
+        <section class="my-4 py-4 my-md-5 py-md-5">
+          <div class="row text-center mb-4 mb-md-5">
             <h2>CONTACT US</h2>
           </div>
-          <div class="row pt-4">
-            <div class="col-5 pr-4">
-              <p>We While we're busy caring for the animals at the center and teaching lessons, we will do our best to quickly reply. You can email us at <a href="mailto:spiritstrides@gmail.com">spiritstrides@gmail.com</a> or give us a call at <a href="tel:+16365245656">636-524-5656</a>. Your contact information well <i>never</i> be sold or shared.</p>
+          <div class="row pt-md-4">
+            <div class="col-12 col-md-5 pr-md-4">
+              <p>While we may be busy caring for the animals at the center and teaching lessons, we will do our best to quickly reply. You can email us at <a href="mailto:spiritstrides@gmail.com">spiritstrides@gmail.com</a> or give us a call at <a href="tel:+16365245656">636-524-5656</a>. Your contact information well <i>never</i> be sold or shared.</p>
+              <p class="mt-3 mb-4 mt-md-5 text-center">
+                <a href="https://www.facebook.com/spiritstrides" target="_blank"><i style="font-size:24px;" class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/spiritstrides" target="_blank" class="ml-5"><i style="font-size:24px;" class="fa fa-instagram"></i></a>
+              </p>
             </div>
             <div class="col-1"></div>
-            <div class="col-6 pl-4">
-              <p class="highlight">DIRECTIONS TO OUR CENTER:</p>
+            <div class="col-12 col-md-6 px-3 pr-md-0 pl-md-4">
+              <p class="highlight text-center mb-3">DIRECTIONS TO OUR CENTER:</p>
               
               <p class="directions no-margin" style="font-weight:700;font-size:12px;">From St. Louis, go west on MO-30:</p>
               <p class="directions no-margin">Turn left on State Road Y, and go 6 miles, Spirit Strides is on left at 7833 State Road Y.</p>
@@ -308,7 +367,7 @@
     </section>
 
     <div id="free-resources" class="container">
-      <section class="section-links my-5 pt-5">
+      <section class="section-links my-4 py-4 my-md-5 py-md-5">
         <div class="row text-center mb-4">
           <h2>OUR SPONSORS</h2>
         </div>
@@ -316,32 +375,34 @@
           <span style="max-width:900px;margin:0 auto;">We want to acknowledge and thank our partners and sponsors. Many of our clients are unable to afford therapeutic riding and participate through donated funds and scholarships from them. We are so grateful to you!</span>
         </div>
         <div class="row">
-          <div class="col-1"></div>
-          <div class="col-2 text-center link-container">
+          <div class="col-0 col-md-1"></div>
+          <div class="col-4 col-md-2 text-center link-container">
             <a target="_blank" href="https://columbusregion.com/onecolumbus/">
               <img class="img-link" src="images/sponsors/next-step.webp" />
             </a>
           </div>
 
-          <div class="col-2 text-center link-container">
+          <div class="col-4 col-md-2 text-center link-container">
             <a target="_blank" href="https://columbusregion.com/onecolumbus/">
               <img class="img-link" src="images/sponsors/sunny-hill.webp" />
             </a>
           </div>
 
-          <div class="col-2 text-center link-container">
+          <div class="col-4 col-md-2 text-center link-container">
             <a target="_blank" href="https://columbusregion.com/onecolumbus/">
               <img class="img-link" src="images/sponsors/my-place.webp" />
             </a>
           </div>
 
-          <div class="col-2 text-center link-container">
+          <div class="col-2 d-md-none"></div>
+
+          <div class="col-4 col-md-2 text-center link-container">
             <a target="_blank" href="https://columbusregion.com/onecolumbus/">
               <img class="img-link" src="images/sponsors/dra.png" />
             </a>
           </div>
 
-          <div class="col-2 text-center link-container">
+          <div class="col-4 col-md-2 text-center link-container">
             <a target="_blank" href="https://columbusregion.com/onecolumbus/">
               <img class="img-link" src="images/sponsors/dda.webp" />
             </a>
@@ -350,7 +411,7 @@
       </section>
     </div>
 
-    <section class="py-5 background-primary">
+    <section class="py-4 py-md-5 background-primary">
       <div class="container text-center" style="max-width:500px;">
         <p class="color-white">Our mission is to change lives with therapeutic horse riding in a safe, caring, Christian setting.</p>
       </div>
@@ -406,7 +467,7 @@
               </tr>
               <tr>
                 <td>Sun</td>
-                <td class="footer-hours">???</td>
+                <td class="footer-hours">By Appointment</td>
               </tr>
             </table>
           </div>
@@ -416,7 +477,7 @@
           </div>
         </div>
         <div class="text-center copyright-text pt-2" style="width:100%;">
-          © 2019-2020 Spirit Strides Therapeutic Riding | Terms of Use | Privacy Policy
+          © 2019-2020 Spirit Strides Therapeutic Riding | <a href="attachments/SS TERMS OF USE.docx" target="_blank">Terms of Use</a> | <a href="attachments/SS PRIVACY POLICY.docx" target="_blank">Privacy Policy</a>
         </div>
       </div>
     </footer>
@@ -424,6 +485,14 @@
 
   <script SameSite="none" src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/lightslider.min.js"></script>
   <script src="scripts/index.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#lightSlider").lightSlider({
+        autoWidth:true
+      }); 
+    });
+  </script>
 </body>
 </html>

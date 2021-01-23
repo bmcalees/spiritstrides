@@ -19,3 +19,11 @@ h1{
   font-style: italic;
   letter-spacing:1.4px;
 }
+
+@media only screen and (max-width: 768px){
+  span,p,ul,ol,li{
+    font-weight:300;
+    font-size:14px;
+    line-height:1.4;
+  }
+}
