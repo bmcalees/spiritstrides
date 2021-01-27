@@ -29,13 +29,18 @@ h2{
 }
 
 #header-text-container{
-    border-top:1px solid black;
-    border-bottom:1px solid black;
-    height:64px;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    height:72px;
 }
 
 #header-text-container h1{
-    font-size:24px;
+    font-size:30px;
+    font-weight:600;
+}
+
+#section-header .link{
+    font-weight:300;
 }
 
 /* SECTION ---- CAROUSEL ---- */
@@ -68,7 +73,7 @@ h2{
 
 #banner-parallax{
     /* The image used */
-    background-image: url("../images/woman-and-horse.jpg");
+    background-image: url("../images/horses-banner.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -325,6 +330,8 @@ h2{
         align-items: center;
         border:none;
         padding-left:0;
+        height:52px;
+        padding-top:12px;
     }
 
     .header-logo-container{
