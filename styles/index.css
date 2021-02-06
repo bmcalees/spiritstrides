@@ -29,14 +29,13 @@ h2{
 }
 
 #header-text-container{
-    border-top:2px solid black;
-    border-bottom:2px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
     height:72px;
 }
 
 #header-text-container h1{
     font-size:30px;
-    font-weight:600;
 }
 
 #section-header .link{
@@ -328,10 +327,10 @@ h2{
     #header-text-container{
         display:flex;
         align-items: center;
-        border:none;
         padding-left:0;
+        padding-right:0;
         height:52px;
-        padding-top:12px;
+        padding-top:6px;
     }
 
     .header-logo-container{
@@ -408,4 +407,10 @@ h2{
     .lightSlider img {
         height:300px;
      }
+}
+
+@media only screen and (max-width: 1200px){
+    #header-text-container{
+        height:100%;
+    }
 }
